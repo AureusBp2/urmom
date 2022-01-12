@@ -2830,7 +2830,7 @@ end)
 -- Commands allow aliases so that the user can call the same function with different names. This helps the user remember the commands easier.
 -- When executing cmdlist, only the first alias is shown. This means that the primary alias is index 1 in the table
 addCommand({"test"}, "Test command to ensure that the terminal is accepting user requests.", function()
-	terminalPrint("Ez Hub Terminal is currently functional...", "y");
+	terminalPrint("DD0S Terminal is currently functional...", "y");
 end);
 
 -------------------------
